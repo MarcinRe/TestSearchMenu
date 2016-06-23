@@ -10,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
 class TestSearchMenu(GLBaseTestCase, GLSupportUI):
-    driverType = GLHelper.CHROME
+    driverType = GLHelper.PHANTOMJS
     baseUrl = "http://www.rec-global.com"
     assertionErrors = []
     phrase = 'qa engineer'
